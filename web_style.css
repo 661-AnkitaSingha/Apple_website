@@ -1,0 +1,190 @@
+@font-face {
+    font-family: ipho;
+    src: url(./sf-pro-display_regular.woff2);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ipho;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    font-weight: 400;
+}
+#nav{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(44, 43, 43);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+    position: fixed;
+}
+#center{
+    height: 80%;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    background-image: url("apple.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#center>h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+#center>h5{
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+}
+#butt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px;
+}
+#link>button{
+    background-color: rgb(78, 103, 180);
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+}
+#airpod{
+    height: 95%;
+    width: 100%;
+    color: black;
+    background-image: url("https://www.apple.com/v/home/ci/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_medium.jpg");
+    background-position: center;
+    background-size: cover;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+}
+#but>button{
+    background-color: rgb(78, 103, 180);
+    color: white;
+    padding: 15px;
+    border-radius: 40px;
+    border: none;
+}
+#phone{
+    height: 75%;
+    width: 100%;
+    color: black;
+    background-image: url("https://www.apple.com/v/home/ci/images/heroes/iphone-17/hero_iphone_17__c5vvimu9a20y_medium.jpg");
+    background-position: center;
+    background-size: cover;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: auto;
+}
+#phone>h5{
+    font-weight: 100;
+    padding: 20px;
+}
+#butio>button{
+    background-color: rgb(78, 103, 180);
+    color: white;
+    padding: 20px;
+    border-radius: 40px;
+    border: none;
+}
+#squ1{
+    height: 90%;
+    width: 100%;
+    color: black;
+    background-image: url("https://www.apple.com/v/home/ci/images/heroes/ipad-air/hero_ipad_air_avail__c34ycq52exg2_medium.jpg");
+    background-position: center;
+    background-size: cover;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;   
+}
+#butt>button{
+    background-color: rgb(78, 103, 180);
+    color: white;
+    padding: 15px;
+    border-radius: 40px;
+    border: none;
+}
+#squ1>button{
+    margin-top: 80px;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#air{
+    height: 95%; 
+    width: 55%;
+    color: black;
+    background-image: url("https://www.apple.com/v/home/ci/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_medium.jpg");
+    background-position: center;
+    background-size: cover;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;   
+} 
+#air>button{
+    background-color: rgb(78, 103, 180);
+    color: white;
+    padding: 15px;
+    border-radius: 40px;
+    border: none;
+}
+#watch{
+    height: 95%;
+    width: 55%;
+    color: black;
+    background-image: url("https://www.apple.com/v/home/ci/images/promos/apple-watch-series-11/promo_apple_watch_series_11__b63hxviqvonm_medium.jpg");
+    background-position: center;
+    background-size: cover;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;   
+}
+#watch>pre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+#watch>button{
+    background-color: rgb(78, 103, 180);
+    color: white;
+    padding: 15px;
+    border-radius: 40px;
+    border: none;
+    margin-top: 15px;
+}
+
+#footer{
+    background-color: rgb(44, 43, 43);
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#footer p{
+    font-size: 12px;
+    font-weight: 400;
+}
